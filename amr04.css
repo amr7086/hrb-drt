@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+	margin: 0;
+}
+body {
+	font-family: tahoma, arial, sans-serif;
+}
+/* start dashboard */
+.page {
+	display: flex;
+	height: 100vh;
+}
+.page .sidebar {
+	width: 260px;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	
+}
+.page .sidebar .page-title {
+	text-align: center;
+    border-bottom: 1px solid #727272;
+    padding-bottom: 20px;
+    font-size: 26px;
+}
+
+
+.page .content {
+	width: calc(100% - 260px);
+	background-color: #eee;
+	padding: 20px 10px;
+}
+
+/* Start all boxes */
+.page .content .all-boxes {
+	display: flex;
+	 /* justify-content: space-between; */
+}
+.page .content .all-boxes .paddig-box {
+	flex-grow: 1;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.page .content .all-boxes .box {
+	background-color: white;
+    padding: 20px;
+	color: #888;
+	 /* width: calc((100% - 60px) / 4); */
+	/* flex-grow: 1; */
+	/*padding-right: 10px */;
+	 /*padding-left: 10px;*/
+  border-bottom: 4px solid #333;
+}
+.page .content .all-boxes .box span {
+    display: block;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.page .content .all-boxes .views {
+	border-color: #ee568a; 
+} 
+.page .content .all-boxes .views span {
+	color: #ee568a;
+} 
+
+.page .content .all-boxes .Members {
+    border-color: #3fb0a5;
+} 
+.page .content .all-boxes .Members span {
+	color: #3fb0a5;
+} 
+.page .content .all-boxes .Comments  {
+	border-color: #58b0f6; 
+}
+.page .content .all-boxes .Comments span {
+	color: #58b0f6;
+} 
+.page .content .all-boxes .Articles {
+	border-color: #ff8159;
+} 
+.page .content .all-boxes .Articles span {
+	color: #ff8159;
+} 
+
+/* End all boxes */
+/* End dashboard */
